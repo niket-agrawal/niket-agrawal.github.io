@@ -76,9 +76,9 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Project Associate (Dr Srikanth Padmala)
+      time: Jan, 2020 - Present
+      company: Indian Institute of Science, Bangalore
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -89,30 +89,24 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Exploring cognitive control mechanisms during emotion perception and reward processing
+          - Studying interplay of emotions and attentional breadth by using Navon’s task
+          - Used PsychoPy to create behavioural and scanner tasks
+          - Duties still evolving but will include aspects of fMRI including scanning and image data analysis
+    - role: Master’s Thesis Student (Dr Ark Verma)
+      time: Apr, 2019 - Jan, 2020
+      company: Indian Institute of Technology, Kanpur
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Thesis Title: Hemispheric lateralization in perception of emotions
+          - Compared different models of lateralization during perception of emotions, using visual half field studies
+          - Created pilot lexical proficiency tests in Devanagari (Hindi)
+          - Optimized the experiment for Hindi - English eye tracking corpus
+    - role: Research Intern (Dr Priyanka Srivastava)
+      time: Aug, 2017 - Nov, 2017
+      company: International Institute of Information Technology, Hyderabad
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Design and conduction of the experiment in spatial navigation tasks (360-degree VR)
+          - Collection and analysis of data comparing head mounted display with monitors
 projects:
     title: Projects
     intro: >
