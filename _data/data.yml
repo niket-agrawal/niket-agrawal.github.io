@@ -7,42 +7,39 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Niket Agrawal
+    tagline: Masters in Cognitive Neuroscience
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: niketagrawal@iisc.ac.in
+    phone: (+91) 96805 58313
+    website: niket.ga #do not add http://
+    linkedin: niket-agrawal-883517125
+    github: niket-agrawal
     telegram: # add your nickname without '@' sign
-    gitlab:
+    gitlab: niket
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@niketnet03'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Hindi
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: ABACUS
         link:
 
-      - item: Snowboarding
+      - item: Skating
         link:
 
-      - item: Cooking
+      - item: Swimming
         link:
 
 career-profile:
