@@ -7,8 +7,30 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!--<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>-->
 		<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+		<script>
+		function startTime() {
+		  var today = new Date();
+		  var h = today.getHours();
+		  var m = today.getMinutes();
+		  var s = today.getSeconds();
+		  var dte = today.getDate();
+		  var mth = today.getMonth()+1;
+		  var yer = today.getFullYear();
+		  //var ms = today.getMilliseconds();
+		  m = checkTime(m);
+		  s = checkTime(s);
+		  dte = checkTime(dte);
+		  mth = checkTime(mth);
+		  document.getElementById('txt').innerHTML = '<b>'+"Date: "+'</b>'+dte+"-"+mth+"-"+yer+" &nbsp;|&nbsp; "+'<b>'+"Time: "+'</b>'+h+":"+m+":"+s;//+":"+ms
+		  var t = setTimeout(startTime, 500);
+		}
+		function checkTime(i) {
+		  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		  return i;
+		}
+		</script>
 	</head>
-	<body>
+	<body onload="startTime()">
 		<div id="container">
 			<div id="leftContainer">
 				<div class="resumeBlocks" id="profile">
@@ -50,8 +72,27 @@
 					<div id="profileSummary">
 						<p>Internet is big, fascinating and sometimes dark place. But it is really interesting way to connect with people and read different ideas. Here I'm just listing the links that I found to be interesting over the years.</p>
 						<p class="confName"> > &nbsp;&nbsp; <a href="http://www.paulgraham.com/makersschedule.html" target="_blank">Maker's v/s Manager's schedule</a> &nbsp;&nbsp;and&nbsp;&nbsp; <a href="https://opensource.com/article/20/2/why-developers-code-night" target="_blank">Why developers like to code at night?</a></p>
-						<!--<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-1</a></p>
-						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-2</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="https://constantvisions.wordpress.com/2018/07/03/what-it-takes-to-stay-nothing/" target="_blank">What it takes to stay? Nothing !!! </a>&nbsp;&nbsp;by Shagufta Khan</p>
+						<!--<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-2</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-3</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-4</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-5</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-6</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-7</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-8</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-9</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-10</a></p>-->
+
+					</div>
+				</div>
+
+				<div class="resumeBlocks" >
+					<h3>Some videos</h3>
+					<div id="profileSummary">
+						<p>Some youtube videos, just to have a food for thought.</p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">video_#1</a></p>
+						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">video_#2</a></p>
+						<!--<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-2</a></p>
 						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-3</a></p>
 						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-4</a></p>
 						<p class="confName"> > &nbsp;&nbsp; <a href="#" target="_blank">Link-5</a></p>
@@ -84,14 +125,12 @@
 						</span>
 					</div>
 				</div>
-			</br><hr></br>
+				</br><hr></br>
 				<div class="cv_down">
 					</br><i class="fa fa-undo" aria-hidden="true"></i><a href="index.html">go back to Home</a></br></br><hr></br>
 				</div>
-				<div class="cv_down">
-					<img src="tree_top.svg" width=90%>
-					<img src="tree_roots.svg" width=90%>
-				</div>
+				<div id="txt" class="cv_down"></div></br>
+				<div class="cv_down"><img src="tree_top.svg" width=90%><img src="tree_roots.svg" width=90%></div>
 				
 			</div>
 
